@@ -1,0 +1,143 @@
+*{
+    |outline: 1px solid #3b99d8
+}
+
+html, body{
+    background-color: #ffd900;
+    padding: 0;
+    margin: 0;
+}
+
+/*-------------------- HEADER --------------------*/
+
+header{
+    height: 40px;
+}
+
+.navbar-header{
+    width: 100%;
+}
+
+.menu{
+    padding: 10px 0;
+    text-align: center;
+
+}
+
+.menu li{
+    display: inline-block;
+    margin: 0 20px;
+
+}
+
+.menu a{
+    color: #FFF;
+    font-weight: 700;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 20px;
+}
+
+
+
+/*-------------------- PORTADA --------------------*/
+
+
+.portada {
+    background: url('../images/background3.jpg') no-repeat;
+    background-size: cover;
+    height: 600px;
+    text-align: center;
+}
+
+.portada h1{
+    padding: 200px 0 0 0;
+    color:#333333;
+    font-size: 4.8em;
+    font-weight: 500;
+    font-family: 'Taviraj', serif;
+}
+
+.portada p{
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 22px;
+    font-weight: 500;
+    margin: 0px;
+    background: rgba(239,239,239,0.5);
+}
+
+/*-------------------- PERFIL --------------------*/
+
+
+.perfil{
+    padding: 60px 0;
+    background-color: #efefef;
+}
+
+.perfil h1{
+    font-family: 'Taviraj', serif;
+    font-size: 2.7em;
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+.perfil p{
+    padding: 0 30px;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 16px;
+}
+
+.perfil img{
+    width: 100%;
+    text-align: center;
+    border: 15px solid white;
+    box-shadow: 10px 17px 13px -4px rgba(144,148,130,1);
+}
+
+/*-------------------- FAVORITOS --------------------*/
+
+
+.favoritos{
+    text-align: center;
+    padding: 60px;
+}
+
+.favoritos h1{
+    font-family: 'Taviraj', serif;
+    font-size: 2.7em;
+    padding-bottom: 50px;
+}
+
+.favoritos li{
+    display: inline-block;
+    margin: 10px 20px;
+}
+
+.favoritos img{
+    width: 180px;
+    border-radius: 50%;
+    border: 15px solid white;
+    box-shadow: 11px 7px 12px -1px #322929;
+}
+
+/*-------------------- FOOTER --------------------*/
+
+footer{
+    background-color: #00ccd6;
+    text-align: center;
+    padding: 50px 0;
+}
+
+footer h1{
+    font-family: 'Taviraj', serif;
+    font-size: 2.7em;
+    padding-bottom: 50px;
+}
+
+footer li{
+    display: inline-block;
+}
+
+footer img{
+    width: 150px;
+    margin: 0 40px;
+}
